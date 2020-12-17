@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="br">
+      <map/>
+      <node name="com">
+        <map/>
+        <node name="brasiltelecom">
+          <map/>
+          <node name="oms">
+            <map/>
+            <node name="xmlapi">
+              <map/>
+              <node name="baca">
+                <map/>
+                <node name="acao">
+                  <map>
+                    <entry key="campo/campo1" value="campo/campo1"/>
+                    <entry key="dados_gerais_da_os_smp/status_smp" 
+                      value="dados_gerais_da_os_smp/status_smp"/>
+                    <entry key="servico" value="servico"/>
+                    <entry 
+                      key="/dados_gerais_servicos_smp/servico_smp[1]/codigo_erro_smp" 
+                      value="/dados_gerais_servicos_smp/servico_smp[1]/codigo_erro_smp"/>
+                    <entry 
+                      key="/dados_gerais_servicos_smp/servico_smp[2]/codigo_erro_smp" 
+                      value="/dados_gerais_servicos_smp/servico_smp[2]/codigo_erro_smp"/>
+                    <entry 
+                      key="/dados_gerais_servicos_smp/servico_smp[2]/parametros_smp[2]/valor_parametro_smp" 
+                      value="/dados_gerais_servicos_smp/servico_smp[2]/parametros_smp[2]/valor_parametro_smp"/>
+                    <entry key="/bilhete_corretivo_smp/" 
+                      value="/bilhete_corretivo_smp/"/>
+                    <entry key="/bilhete_corretivo_smp/numero_ba_smp" 
+                      value="/bilhete_corretivo_smp/numero_ba_smp"/>
+                  </map>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

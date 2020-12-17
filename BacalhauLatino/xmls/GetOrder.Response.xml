@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+  <GetOrder.Response xmlns="urn:com:metasolv:oms:xmlapi:1">
+    <OrderID>1406475</OrderID>
+    <OrderHistID>137200552</OrderHistID>
+    <OrderSource>clarify</OrderSource>
+    <OrderType>p215_ativacao_adsl</OrderType>
+    <State>accepted</State>
+    <Reference>RO/OS02214560/2004020</Reference>
+    <Namespace>default</Namespace>
+    <Version>1.0</Version>
+    <_root>
+      <acesso_da_pta>
+        <endereco>
+          <endereco_completo>AV TRANSCONTINENTAL 00808 AN 01 S 
+            0023</endereco_completo>
+          <bairro>CASA PRETA</bairro>
+          <cep>78961410</cep>
+          <complementos1>AN</complementos1>
+          <complementos2>01</complementos2>
+          <complementos3>S</complementos3>
+          <complementos4>0023</complementos4>
+          <edificio>10378</edificio>
+          <localidade>JIP</localidade>
+          <numero>00808</numero>
+          <tipo>AV</tipo>
+          <uf>RO</uf>
+        </endereco>
+        <estacao>
+          <sigla_da_estacao>EJIP</sigla_da_estacao>
+        </estacao>
+        <operadora>
+          <operadora_da_ponta>0001</operadora_da_ponta>
+        </operadora>
+      </acesso_da_pta>
+      <dados_gerais_da_os>
+        <cliente>
+          <nome_do_cliente>SANTANA &amp; MENEZES FOMENTO MERCANTIL 
+            LTDA</nome_do_cliente>
+          <nome_do_contato_comercial>SANTANA &amp; MENEZES FOMENTO MERCANTIL 
+            LTDA</nome_do_contato_comercial>
+        </cliente>
+        <consultor_solicitante>
+          <matricula>EX101301</matricula>
+          <nome_do_consultor>FABÃ?OLA DE OLIVEIRA F. MILANE</nome_do_consultor>
+        </consultor_solicitante>
+        <os_do_crm>
+          <data_aprazamento>2004-12-29T12:00:00 GMT-03:00</data_aprazamento>
+          <data_da_solicitacao>2004-12-23T14:29:59 
+            GMT-03:00</data_da_solicitacao>
+          <data_promessa>2004-12-29T12:00:00 GMT-03:00</data_promessa>
+          <modalidade>14</modalidade>
+          <motivo_do_aprazamento>Nenhum</motivo_do_aprazamento>
+          <no_contrato_clarify>CO00692631/2004</no_contrato_clarify>
+          <no_os_crm>RO/OS02214560/2004020</no_os_crm>
+          <numero_do_circuito>694225175</numero_do_circuito>
+          <observacoes_crm>check list//ass//23/12/2004//</observacoes_crm>
+          <tipo_de_cliente>Normal</tipo_de_cliente>
+          <produto>ADSL</produto>
+          <sla>No</sla>
+          <tipo_da_os>1</tipo_da_os>
+        </os_do_crm>
+      </dados_gerais_da_os>
+      <grupo_adsl>
+        <dados_do_provedor>
+          <provedor>0001_455</provedor>
+        </dados_do_provedor>
+        <dados_do_servico_adsl>
+          <categoria>Modem do Cliente</categoria>
+          <cliente_ja_detem_o_modem>Yes</cliente_ja_detem_o_modem>
+          <modelo_do_modem>Modem do Cliente (Auto-instala</modelo_do_modem>
+          <velocidade_solicitada_download>52</velocidade_solicitada_download>
+          <velocidade_solicitada_upload>51</velocidade_solicitada_upload>
+          <velocidade_download_do_servico>52</velocidade_download_do_servico>
+          <velocidade_upload_do_servico>51</velocidade_upload_do_servico>
+          <numero_de_modem>-</numero_de_modem>
+        </dados_do_servico_adsl>
+      </grupo_adsl>
+      <codigo_de_pendencia>
+        <codigo>0000</codigo>
+      </codigo_de_pendencia>
+      <bilhete_de_atividade index="191466869">
+        <numero_ba>16314268</numero_ba>
+        <codigo_erro>0</codigo_erro>
+        <desc_cod_erro></desc_cod_erro>
+        <identificador_da_tarefa>1406475#136204863</identificador_da_tarefa>
+        <matricula_do_tecnico>EX063917</matricula_do_tecnico>
+        <informacoes_complementares>jumper ok no 
+          dg.</informacoes_complementares>
+        <codigo_encerramento>0000</codigo_encerramento>
+        <descricao_codigo_encerramento>ORDEM DE SERVICO - EXECUTADA GERAL GERAL 
+          ATIVIDADE EXECUTADA </descricao_codigo_encerramento>
+        <data_de_conclusao_da_atividade>2004-12-27T12:09:00 
+          GMT-03:00</data_de_conclusao_da_atividade>
+      </bilhete_de_atividade>
+    </_root>
+  </GetOrder.Response>

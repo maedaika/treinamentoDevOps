@@ -1,0 +1,64 @@
+<root>
+	<id_os>DFOS053889002005</id_os>
+	<modify_stmp>07/13/2005 11:04:55</modify_stmp>
+	<msisdn_novo>556184519811</msisdn_novo>
+	<msisdn_antigo>556184519811</msisdn_antigo>
+	<case_id>DF/OS05388900/2005051</case_id>
+	<case_type>OS - Modificacao</case_type>
+	<case_sub_type>Ativar Desativar Servicos</case_sub_type>
+	<order_priority>alta</order_priority>
+	<nome_produto_smp>Produto Acesso Movel</nome_produto_smp>
+	<identificador_produto_smp>556184519811</identificador_produto_smp>
+	<categoria>F1</categoria>
+	<categoria_anterior>F1</categoria_anterior>
+	<flag_cancelamento>2</flag_cancelamento>
+	<fluxo>OSSMP</fluxo>
+	<provision>
+		<ELM_SIGAME>
+			<macro_servico>ELM_SIGAME</macro_servico>
+			<operacao>Retirar</operacao>
+			<status>NAO_FEITO</status>
+			<x_tipo>SERVICO INTELIGENTE</x_tipo>
+		</ELM_SIGAME>
+		<ELM_INFO_SIMCARD>
+			<macro_servico>ELM_INFO_SIMCARD</macro_servico>
+			<operacao>nao_alterado</operacao>
+			<status>NAO_FEITO</status>
+			<x_tipo>SIMCARD</x_tipo>
+			<parametros>
+				<simcard_ki>645DF673TH098LKHY5463234VB875096</simcard_ki>
+				<simcard_iccid>8955161010001164061</simcard_iccid>
+				<simcard_imsi>724160600116406</simcard_imsi>
+				<simcard_msisdn>556184519811</simcard_msisdn>
+				<simcard_puk2>16161616</simcard_puk2>
+				<simcard_versao></simcard_versao>
+			</parametros>
+			<parametros_antigos>
+				<simcard_ki>645DF673TH098LKHY5463234VB875096</simcard_ki>
+				<simcard_iccid>8955161010001164061</simcard_iccid>
+				<simcard_imsi>724160600116406</simcard_imsi>
+				<simcard_msisdn>556184519811</simcard_msisdn>
+				<simcard_puk2>16161616</simcard_puk2>
+				<simcard_versao></simcard_versao>
+			</parametros_antigos>
+		</ELM_INFO_SIMCARD>
+		<ELM_VPN>
+			<macro_servico>ELM_VPN</macro_servico>
+			<operacao>Adicionar</operacao>
+			<status>NAO_FEITO</status>
+			<x_tipo>SERVICO</x_tipo>
+			<parametros>
+				<vpn_ramal>79811</vpn_ramal>
+				<vpn_group_name>VPN00215</vpn_group_name>
+				<vpn_corp_network_id>CN00000239</vpn_corp_network_id>
+				<vpn_group_id>0227</vpn_group_id>
+			</parametros>
+			<parametros_antigos>
+				<vpn_ramal></vpn_ramal>
+				<vpn_group_name></vpn_group_name>
+				<vpn_corp_network_id></vpn_corp_network_id>
+				<vpn_group_id></vpn_group_id>
+			</parametros_antigos>
+		</ELM_VPN>
+	</provision>
+</root>

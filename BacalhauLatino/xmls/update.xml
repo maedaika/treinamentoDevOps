@@ -1,0 +1,5 @@
+<UpdateOrder.Request>
+  <OrderID>1593</OrderID>
+  <OrderHistID>29686</OrderHistID>
+  <Add path="/bilhete_corretivo_smp[@index='123775']/numero_ba_smp">11111</Add>
+</UpdateOrder.Request>

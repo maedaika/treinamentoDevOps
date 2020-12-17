@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+	<GetOrderProcessHistory.Response xmlns="urn:com:metasolv:oms:xmlapi:1">
+		<OrderID>3197</OrderID>
+		<Namespace>smp</Namespace>
+		<Version>1.0</Version>
+		<Summary>
+			<ActualDuration>9144</ActualDuration>
+			<StartDate>2005-02-18T11:53:21 GMT-03:00</StartDate>
+			<CompleteDate></CompleteDate>
+			<ExpectedCompletionDate>2005-02-19T11:54:32 
+				GMT-03:00</ExpectedCompletionDate>
+		</Summary>
+		<Transitions>
+			<Transition>
+				<TaskID>creation10014</TaskID>
+				<TaskType>creation</TaskType>
+				<TaskDescription>P224 Serviços SMP/CRM / SISGEN order entry 
+					task</TaskDescription>
+				<ExpectedCompletionDate>2005-02-18T11:53:21 
+					GMT-03:00</ExpectedCompletionDate>
+				<ActualDuration>62</ActualDuration>
+				<StartDate>2005-02-18T11:53:21 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T11:54:23 GMT-03:00</CompleteDate>
+				<OrderHistID>29517</OrderHistID>
+				<FromOrderHistID></FromOrderHistID>
+				<State>accepted</State>
+				<Status>n/a</Status>
+				<TransitionType>normal</TransitionType>
+				<User>suporte</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>creation10014</TaskID>
+				<TaskType>creation</TaskType>
+				<TaskDescription>P224 Serviços SMP/CRM / SISGEN order entry 
+					task</TaskDescription>
+				<ExpectedCompletionDate>2005-02-18T11:53:21 
+					GMT-03:00</ExpectedCompletionDate>
+				<ActualDuration>0</ActualDuration>
+				<StartDate>2005-02-18T11:54:23 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T11:54:23 GMT-03:00</CompleteDate>
+				<OrderHistID>29518</OrderHistID>
+				<FromOrderHistID>29517</FromOrderHistID>
+				<State>completed</State>
+				<Status>submit</Status>
+				<TransitionType>normal</TransitionType>
+				<User>suporte</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>e_pre_ativacao</TaskID>
+				<TaskType>rule</TaskType>
+				<TaskDescription>�? Pre Ativação?</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>8</ActualDuration>
+				<StartDate>2005-02-18T11:54:23 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T11:54:31 GMT-03:00</CompleteDate>
+				<OrderHistID>29519</OrderHistID>
+				<FromOrderHistID>29518</FromOrderHistID>
+				<State>received</State>
+				<Status>n/a</Status>
+				<TransitionType>normal</TransitionType>
+				<User>suporte</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>e_pre_ativacao</TaskID>
+				<TaskType>rule</TaskType>
+				<TaskDescription>�? Pre Ativação?</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>0</ActualDuration>
+				<StartDate>2005-02-18T11:54:31 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T11:54:31 GMT-03:00</CompleteDate>
+				<OrderHistID>29520</OrderHistID>
+				<FromOrderHistID>29519</FromOrderHistID>
+				<State>completed</State>
+				<Status>true</Status>
+				<TransitionType>normal</TransitionType>
+				<User>OMSHO2</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>s493_tratamento_de_erros_pre_ativacao_smp</TaskID>
+				<TaskType>subprocess</TaskType>
+				<TaskDescription>S493 Tratamento de Erros Pre Ativação 
+					SMP</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>4537</ActualDuration>
+				<StartDate>2005-02-18T11:54:31 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T13:10:08 GMT-03:00</CompleteDate>
+				<OrderHistID>29521</OrderHistID>
+				<FromOrderHistID>29520</FromOrderHistID>
+				<State>received</State>
+				<Status>n/a</Status>
+				<TransitionType>normal</TransitionType>
+				<User>OMSHO2</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>regra_indicador_sla</TaskID>
+				<TaskType>rule</TaskType>
+				<TaskDescription>Regra Indicador SLA</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>1</ActualDuration>
+				<StartDate>2005-02-18T11:54:31 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T11:54:32 GMT-03:00</CompleteDate>
+				<OrderHistID>29522</OrderHistID>
+				<FromOrderHistID>29521</FromOrderHistID>
+				<State>received</State>
+				<Status>n/a</Status>
+				<TransitionType>normal</TransitionType>
+				<User>OMSHO2</User>
+				<ParentTaskOrderHistID>29521</ParentTaskOrderHistID>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>regra_indicador_sla</TaskID>
+				<TaskType>rule</TaskType>
+				<TaskDescription>Regra Indicador SLA</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>0</ActualDuration>
+				<StartDate>2005-02-18T11:54:32 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T11:54:32 GMT-03:00</CompleteDate>
+				<OrderHistID>29523</OrderHistID>
+				<FromOrderHistID>29522</FromOrderHistID>
+				<State>completed</State>
+				<Status>true</Status>
+				<TransitionType>normal</TransitionType>
+				<User>OMSHO2</User>
+				<ParentTaskOrderHistID>29521</ParentTaskOrderHistID>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>tratamento_de_erros_smp_oms</TaskID>
+				<TaskType>manual</TaskType>
+				<TaskDescription>Tratamento de Erros SMP (OMS)</TaskDescription>
+				<ExpectedCompletionDate>2005-02-19T11:54:32 
+					GMT-03:00</ExpectedCompletionDate>
+				<ActualDuration>4536</ActualDuration>
+				<StartDate>2005-02-18T11:54:32 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T13:10:08 GMT-03:00</CompleteDate>
+				<OrderHistID>29524</OrderHistID>
+				<FromOrderHistID>29523</FromOrderHistID>
+				<State>received</State>
+				<Status>n/a</Status>
+				<TransitionType>normal</TransitionType>
+				<User>OMSHO2</User>
+				<ParentTaskOrderHistID>29521</ParentTaskOrderHistID>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>tratamento_de_erros_smp_oms</TaskID>
+				<TaskType>manual</TaskType>
+				<TaskDescription>Tratamento de Erros SMP (OMS)</TaskDescription>
+				<ExpectedCompletionDate>2005-02-19T11:54:32 
+					GMT-03:00</ExpectedCompletionDate>
+				<ActualDuration>0</ActualDuration>
+				<StartDate>2005-02-18T13:10:08 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T13:10:08 GMT-03:00</CompleteDate>
+				<OrderHistID>29534</OrderHistID>
+				<FromOrderHistID>29524</FromOrderHistID>
+				<State>received</State>
+				<Status>fechamento_manual_os_smp</Status>
+				<TransitionType>T</TransitionType>
+				<User>suporte</User>
+				<ParentTaskOrderHistID>29521</ParentTaskOrderHistID>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>s493_tratamento_de_erros_pre_ativacao_smp</TaskID>
+				<TaskType>subprocess</TaskType>
+				<TaskDescription>S493 Tratamento de Erros Pre Ativação 
+					SMP</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>0</ActualDuration>
+				<StartDate>2005-02-18T13:10:08 GMT-03:00</StartDate>
+				<CompleteDate>2005-02-18T13:10:08 GMT-03:00</CompleteDate>
+				<OrderHistID>29535</OrderHistID>
+				<FromOrderHistID>29521</FromOrderHistID>
+				<State>received</State>
+				<Status>fechamento_manual_os_smp</Status>
+				<TransitionType>exception</TransitionType>
+				<User>suporte</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+			<Transition>
+				<TaskID>regra_finaliza_os_smp</TaskID>
+				<TaskType>rule</TaskType>
+				<TaskDescription>Regra Finaliza OS SMP</TaskDescription>
+				<ExpectedCompletionDate></ExpectedCompletionDate>
+				<ActualDuration>0</ActualDuration>
+				<StartDate>2005-02-18T13:10:08 GMT-03:00</StartDate>
+				<CompleteDate></CompleteDate>
+				<OrderHistID>29536</OrderHistID>
+				<FromOrderHistID>29535</FromOrderHistID>
+				<State>received</State>
+				<Status>n/a</Status>
+				<TransitionType>exception</TransitionType>
+				<User>suporte</User>
+				<ParentTaskOrderHistID/>
+				<DataNodeIndex/>
+				<DataNodeMnemonic/>
+				<DataNodeValue/>
+			</Transition>
+		</Transitions>
+	</GetOrderProcessHistory.Response>
